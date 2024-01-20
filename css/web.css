@@ -144,18 +144,51 @@ p{
   .down-info ul{
     padding-top: 25px;
   }
+#portfolio{
+    width: 100%;
+    height: 100vh;
+}
+.myProjects{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  margin: 0px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.project-header{
+  text-align: center;
+  padding-top: 15px;
+  color:#A3CFCD;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+
+.project-one , .project-two, .project-three{
+  background-color: #3B3A47;
+  width: auto;
+  height: 500px;
+  margin: 0px;
+}
 
   #contact{
     width: 100%;
     height: 100vh;
+    background-color: #37373E;
   }
+
+.logo-pic{
+  margin-top: 100px;
+}
+
 .logo-email img{
   width: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
   border-radius: 50%;
+  padding-top: 20px;
 }
 
 .logo-email p{
@@ -172,5 +205,5 @@ p{
   color: #A3CFCD;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: larger+;
+  font-size: larger;
 }
